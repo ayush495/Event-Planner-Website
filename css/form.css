@@ -1,0 +1,25 @@
+
+#form_container
+{
+	background-image: url("../images/paper-1914901_1280.jpg");
+	background-size:100% 100%;
+	padding:15px 15px;
+	margin-top:15px;
+	color: black;
+}
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/form.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#form_container input[type='text'],
+#form_container input[type='email'],
+#form_container textarea
+{
+	background: rgba(255,255,255,0.2);
+	color: black;
+}
+
